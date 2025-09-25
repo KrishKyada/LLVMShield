@@ -1,0 +1,144 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+warp_aai_work/
+
+# Object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.lib
+*.a
+
+# Executables  
+*.exe
+*.out
+*_obfuscated
+*_original
+obfuscated_binary
+example_original
+example_obfuscated
+
+# LLVM IR files
+*.ll
+*.bc
+
+# Assembly files
+*.s
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+
+# IDE files
+.vscode/
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.pdb
+*.ilk
+
+# Profiling files
+*.gcno
+*.gcda
+*.gcov
+
+# Core dumps
+core
+core.*
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Package files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# Test output and reports
+warp_report_*.json
+warp_pass_telemetry.json
+test_results/
+*.test
+Testing/
+
+# Clang specific
+.clang_complete
+compile_commands.json
+
+# Address Sanitizer
+*.dSYM/
+
+# Coverage files
+coverage.info
+*.lcov
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
